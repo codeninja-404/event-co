@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Festivals",
+        "price": 30000,
+        "description": "Festivals are vibrant and immersive celebrations that infuse life with a spirit of joy and togetherness. They mark significant cultural, religious, or seasonal milestones, bringing communities and families closer. These lively gatherings are characterized by a myriad of activities, including music, dance, feasting, and often rituals that pay homage to tradition. Festivals transcend boundaries, connecting people with their heritage and fostering a sense of unity. They serve as windows into the past, preserving customs while embracing contemporary expressions. From Diwali's luminous lights to Christmas's warm gatherings, festivals enrich our lives with meaning and provide opportunities for shared experiences, making them cherished occasions worldwide.",
+        "image_url": "https://i.ibb.co/YXmtPXC/In-Shot-20231006-235838079.jpg"
+    },
+    {
+        "name": "Parades",
+        "price": 20000,
+        "description": "Parades are enchanting processions that capture the essence of celebration and unity. They bring communities together in a splendid display of art, culture, and pride. With colorful floats, marching bands, and exquisitely adorned participants, parades transform streets into living canvases of festivity. Whether honoring a historical event, cultural heritage, or simply spreading holiday cheer, parades offer a shared spectacle that transcends generations. Crowds lining the route cheer and applaud, creating an electric atmosphere of togetherness. Parades are a tapestry of human creativity and expression, evoking a sense of wonder, patriotism, and collective joy, making them cherished and enduring traditions in societies worldwide.",
+        "image_url": "https://i.ibb.co/8cMMXDL/In-Shot-20231007-000924425.jpg"
+    },
+    {
+        "name": "Carnivals and Fairs",
+        "price": 40000,
+        "description": "Carnivals and fairs are exhilarating spectacles of fun and entertainment that captivate communities and visitors alike. These lively gatherings offer a kaleidoscope of experiences, from thrilling rides to games of skill and chance. The aroma of delectable street food fills the air, tempting taste buds with cotton candy, funnel cakes, and more. Dazzling parades, live performances, and colorful costumes add to the festive atmosphere, creating unforgettable memories. Beyond the excitement, carnivals and fairs often serve as fundraising opportunities for local organizations, fostering a sense of community. These events are a cherished tradition, where laughter, camaraderie, and pure joy come together in a whirlwind of celebration.",
+        "image_url": "https://i.ibb.co/XzcQZTm/In-Shot-20231007-000943519.jpg"
+    },
+    {
+        "name": "Cultural Celebrations",
+        "price": 60000,
+        "description": "Cultural celebrations are joyous reflections of a community's heritage, traditions, and identity. These vibrant events bring people together to honor their roots, fostering a sense of unity and pride. With colorful rituals, music, dance, and cuisine, they create a sensory feast that immerses participants in the richness of their culture. Whether it's Diwali, Carnival, Lunar New Year, or any other cultural festivity, these celebrations transcend borders, connecting generations and bridging diverse backgrounds. They serve as windows into the past, preserving customs while embracing modernity. Cultural celebrations are a testament to the beauty of diversity, highlighting the shared human desire to cherish and perpetuate one's unique heritage..",
+        "image_url": "https://i.ibb.co/sbSfGPH/In-Shot-20231007-001005455.jpg"
+    },
+    {
+        "name": "Fundraisers and Charity Galas",
+        "price": 80000,
+        "description": "Fundraisers and Charity Galas epitomize the spirit of giving and philanthropy. These elegant and purpose-driven events serve as powerful platforms for individuals and organizations to come together in support of noble causes. Attendees, dressed in their finest attire, gather to raise funds for various charitable endeavors, whether it's aiding those in need, advancing medical research, or supporting education initiatives. These occasions are marked by heartwarming speeches, auctions, and performances, all with a shared goal: making a positive impact on society. Fundraisers and Charity Galas are more than glamorous soirées; they are vital catalysts for positive change, channeling collective generosity to create a better world.",
+        "image_url": "https://i.ibb.co/2nmyVp8/In-Shot-20231007-001022885.jpg"
+    },
+    {
+        "name": "Cultures in Color Festival",
+        "price": 50000,
+        "description": "The Cultures in Color Festival is a vibrant and immersive celebration of diversity, uniting people from all walks of life in a kaleidoscope of cultural experiences. This festival is a mosaic of traditions, art, music, and cuisine that showcases the rich tapestry of our global community. Attendees embark on a journey around the world without leaving the event grounds, exploring authentic displays, performances, and interactive exhibits from various cultures. From captivating dance performances to mouthwatering international cuisine, every aspect of the festival is designed to foster cultural understanding and appreciation. Cultures in Color is more than an event; it's a colorful tapestry that brings people together to celebrate our shared humanity.",
+        "image_url": "https://i.ibb.co/HzMNzYQ/In-Shot-20231007-002313973.jpg"
+    }
+]
