@@ -1,11 +1,11 @@
-
+import NavBar from "./Component/Header/NavBar";
 
 const Root = () => {
-    return (
-        <div>
-            this is root
-        </div>
-    );
+  return (
+    <div>
+      <NavBar></NavBar>
+    </div>
+  );
 };
 
 export default Root;
