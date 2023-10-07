@@ -82,7 +82,7 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              <h1 className="m-5 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
               Your Culture, Our Expertise – Unforgettable Events.
               </h1>
             </div>
@@ -115,7 +115,7 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              <h1 className="mt-10 mb-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
               Creating Vibrant Memories, Fostering Community Bonds.
               </h1>
             </div>
