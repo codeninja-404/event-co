@@ -1,7 +1,7 @@
 const Aboutus = () => {
   return (
     <div className=" container mx-auto px-2  md:px-20">
-      <div className="hero-content mx-auto text-center border rounded-xl">
+      <div className="hero-content mx-auto bg-gray-950 text-center border rounded-xl">
         <div className="">
           <h1 className="text-3xl text-green-500 border-b ">About us</h1>
           <p className="py-6 ">

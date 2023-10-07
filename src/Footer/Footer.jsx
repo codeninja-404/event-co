@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer data-aos="zoom-in-up" className="footer footer-center p-10 bg-black text-primary-content">
+    <footer data-aos="zoom-in-up" className="footer footer-center p-20 bg-black text-primary-content">
       <aside>
         
         <p className="font-bold text-2xl">
         Event.CO
         </p>
-        <p>Copyright © 2023 - All right reserved</p>
+        <p>Copyright © 2023 - All right reserved By Saidul Arefin</p>
       </aside>
       <nav>
         <div className="grid grid-flow-col gap-4">

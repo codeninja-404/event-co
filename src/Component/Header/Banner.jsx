@@ -2,7 +2,10 @@ const Banner = () => {
   return (
     <div className="py-4">
       <div className="carousel w-full">
-        <div id="slide1" className="carousel-item flex flex-col relative w-full">
+        <div
+          id="slide1"
+          className="carousel-item flex flex-col relative w-full"
+        >
           <div
             className="hero "
             style={{
@@ -12,26 +15,30 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
-                </p>
-              </div>
+              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+                Celebrating Diversity, Uniting Communities
+              </h1>
             </div>
           </div>
           <div className=" my-2   mx-auto ">
-            <a href="#slide4" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide4"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❮
             </a>
-            <a href="#slide2" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide2"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❯
             </a>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full flex flex-col">
+        <div
+          id="slide2"
+          className="carousel-item relative w-full flex flex-col"
+        >
           <div
             className="hero "
             style={{
@@ -41,27 +48,31 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
-                </p>
-              </div>
+              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              Bringing Cultures Together, One Event at a Time.
+              </h1>
             </div>
           </div>
           <div className="my-2 mx-auto ">
-            <a href="#slide1" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide1"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❮
             </a>
-            <a href="#slide3" className="btn mx-2 btn-sm btn-outline text-white ">
+            <a
+              href="#slide3"
+              className="btn mx-2 btn-sm btn-outline text-white "
+            >
               ❯
             </a>
           </div>
         </div>
 
-        <div id="slide3" className="carousel-item relative w-full flex flex-col">
+        <div
+          id="slide3"
+          className="carousel-item relative w-full flex flex-col"
+        >
           <div
             className="hero "
             style={{
@@ -71,26 +82,30 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
-                </p>
-              </div>
+              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              Your Culture, Our Expertise – Unforgettable Events.
+              </h1>
             </div>
           </div>
           <div className="my-2 mx-auto ">
-            <a href="#slide2" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide2"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❮
             </a>
-            <a href="#slide4" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide4"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❯
             </a>
           </div>
         </div>
-        <div id="slide4" className="carousel-item relative w-full flex flex-col">
+        <div
+          id="slide4"
+          className="carousel-item relative w-full flex flex-col"
+        >
           <div
             className="hero "
             style={{
@@ -100,32 +115,29 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
-                </p>
-              </div>
+              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              Creating Vibrant Memories, Fostering Community Bonds.
+              </h1>
             </div>
           </div>
           <div className="my-2 mx-auto ">
-            <a href="#slide3" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide3"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❮
             </a>
-            <a href="#slide1" className="btn mx-2 btn-sm btn-outline text-white">
+            <a
+              href="#slide1"
+              className="btn mx-2 btn-sm btn-outline text-white"
+            >
               ❯
             </a>
           </div>
         </div>
-        
-        <div  className="carousel-item relative w-full">
-          <img
-            src=""
-            className="w-full"
-          />
-          
+
+        <div className="carousel-item relative w-full">
+          <img src="" className="w-full" />
         </div>
       </div>
     </div>
