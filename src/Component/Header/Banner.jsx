@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
-    <div>
-      <div className="carousel w-full ">
-        <div id="slide1" className="carousel-item relative w-full">
+    <div className="py-4">
+      <div className="carousel w-full">
+        <div id="slide1" className="carousel-item flex flex-col relative w-full">
           <div
             className="hero "
             style={{
@@ -22,16 +22,16 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn  btn-sm btn-outline text-white">
+          <div className=" my-2   mx-auto ">
+            <a href="#slide4" className="btn mx-2 btn-sm btn-outline text-white">
               ❮
             </a>
-            <a href="#slide2" className="btn btn-sm btn-outline text-white">
+            <a href="#slide2" className="btn mx-2 btn-sm btn-outline text-white">
               ❯
             </a>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
+        <div id="slide2" className="carousel-item relative w-full flex flex-col">
           <div
             className="hero "
             style={{
@@ -51,17 +51,17 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-sm btn-outline text-white">
+          <div className="my-2 mx-auto ">
+            <a href="#slide1" className="btn mx-2 btn-sm btn-outline text-white">
               ❮
             </a>
-            <a href="#slide3" className="btn btn-sm btn-outline text-white">
+            <a href="#slide3" className="btn mx-2 btn-sm btn-outline text-white ">
               ❯
             </a>
           </div>
         </div>
 
-        <div id="slide3" className="carousel-item relative w-full">
+        <div id="slide3" className="carousel-item relative w-full flex flex-col">
           <div
             className="hero "
             style={{
@@ -81,16 +81,16 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-sm btn-outline text-white">
+          <div className="my-2 mx-auto ">
+            <a href="#slide2" className="btn mx-2 btn-sm btn-outline text-white">
               ❮
             </a>
-            <a href="#slide4" className="btn btn-sm btn-outline text-white">
+            <a href="#slide4" className="btn mx-2 btn-sm btn-outline text-white">
               ❯
             </a>
           </div>
         </div>
-        <div id="slide4" className="carousel-item relative w-full">
+        <div id="slide4" className="carousel-item relative w-full flex flex-col">
           <div
             className="hero "
             style={{
@@ -110,11 +110,11 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="btn btn-sm btn-outline text-white">
+          <div className="my-2 mx-auto ">
+            <a href="#slide3" className="btn mx-2 btn-sm btn-outline text-white">
               ❮
             </a>
-            <a href="#slide1" className="btn btn-sm btn-outline text-white">
+            <a href="#slide1" className="btn mx-2 btn-sm btn-outline text-white">
               ❯
             </a>
           </div>

@@ -16,7 +16,8 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 container mx-auto px-2 lg:px-20">
+    <div className="py-2">
+      <div className="navbar rounded-full  bg-black border text-gray-400 container mx-auto px-2 lg:px-20">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,7 +43,7 @@ const NavBar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl ">Event.co</a>
+        <a className="btn btn-ghost normal-case text-xl text-white font-bold">Event.CO</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">
@@ -56,8 +57,9 @@ const NavBar = () => {
             <img src="https://i.ibb.co/HzMNzYQ/In-Shot-20231007-002313973.jpg" />
           </div>
         </div>
-        <Link className="btn btn-outline btn-sm text-xs">Log out</Link>
+        <Link className="btn btn-outline btn-sm text-xs text-gray-400">Log out</Link>
       </div>
+    </div>
     </div>
   );
 };
