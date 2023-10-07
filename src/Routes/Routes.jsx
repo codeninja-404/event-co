@@ -3,6 +3,7 @@ import Root from "../Root";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 import Details from "../Pages/Details";
+import Login from "../Pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => fetch("/service.json"),
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
       {
         path: "/details/:id",

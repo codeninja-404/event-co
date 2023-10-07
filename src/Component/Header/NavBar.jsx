@@ -54,8 +54,8 @@ const NavBar = () => {
               <img src="https://i.ibb.co/HzMNzYQ/In-Shot-20231007-002313973.jpg" />
             </div>
           </div>
-          <Link className="btn btn-outline btn-sm text-xs text-gray-400">
-            Log out
+          <Link to="/login" className="btn btn-outline btn-sm text-xs text-gray-400">
+            Log in
           </Link>
         </div>
       </div>
