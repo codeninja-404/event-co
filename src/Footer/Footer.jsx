@@ -3,7 +3,7 @@ const Footer = () => {
     <footer data-aos="zoom-in-up" className="footer footer-center p-10 bg-black text-primary-content">
       <aside>
         
-        <p className="font-bold">
+        <p className="font-bold text-2xl">
         Event.CO
         </p>
         <p>Copyright © 2023 - All right reserved</p>
