@@ -16,7 +16,7 @@ const AuthProvider = ({ children }) => {
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
   };
- 
+
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -26,7 +26,7 @@ const AuthProvider = ({ children }) => {
     };
   }, []);
 
-  const authInfo = { user, createUser, addNameAndPhoto };
+  const authInfo = { user, createUser, auth };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
   );

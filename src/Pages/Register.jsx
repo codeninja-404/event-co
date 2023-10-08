@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { updateProfile } from "firebase/auth";
+
 const Register = () => {
-  const { createUser,  } = useContext(AuthContext);
+  const { createUser } = useContext(AuthContext);
   const handleRegister = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -11,9 +13,20 @@ const Register = () => {
     const photo = e.target.photo.value;
 
     createUser(email, password)
-      .then((res) => console.log(res.user))
+      .then((res) => {
+        updateProfile(res.user, {
+          displayName: name,
+          photoURL: photo,
+        })
+          .then(() => {
+            console.log("profile updated successfully");
+          })
+          .catch((error) => {
+            // Handle errors
+            console.error(error.message);
+          });
+      })
       .catch((err) => console.log(err.message));
-  
   };
   return (
     <div className="container h-screen px-2 lg:px-20 mx-auto">
