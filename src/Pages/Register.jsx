@@ -22,7 +22,7 @@ const Register = () => {
             console.log("profile updated successfully");
           })
           .catch((error) => {
-            // Handle errors
+            
             console.error(error.message);
           });
       })

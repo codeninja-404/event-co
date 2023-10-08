@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer  footer-center py-20 bg-black text-primary-content">
-      <div data-aos="zoom-in-up">
+      <div>
         <aside>
           <p className="font-bold text-2xl">Event.CO</p>
           <p>Copyright © 2023 - All right reserved By Saidul Arefin</p>

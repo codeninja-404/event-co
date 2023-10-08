@@ -15,14 +15,14 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
-                Celebrating Diversity, Uniting Communities
+              <h1 className="m-12 md:m-32 lg:m-32  text-4xl font-bold text-yellow-400">
+              Coming Together Is A Beginning. Keeping Together Is Progress.
               </h1>
             </div>
           </div>
           <div className=" my-2   mx-auto ">
             <a
-              href="#slide4"
+              href="#slide3"
               className="btn mx-2 btn-sm btn-outline text-white"
             >
               ❮
@@ -48,8 +48,8 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <h1 className="m-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
-              Bringing Cultures Together, One Event at a Time.
+              <h1 className="m-12 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              Coming Together Is A Beginning. Keeping Together Is Progress.
               </h1>
             </div>
           </div>
@@ -82,47 +82,14 @@ const Banner = () => {
           >
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-              <h1 className="m-5 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
-              Your Culture, Our Expertise – Unforgettable Events.
+              <h1 className="m-12 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
+              Coming Together Is A Beginning. Keeping Together Is Progress.
               </h1>
             </div>
           </div>
           <div className="my-2 mx-auto ">
             <a
               href="#slide2"
-              className="btn mx-2 btn-sm btn-outline text-white"
-            >
-              ❮
-            </a>
-            <a
-              href="#slide4"
-              className="btn mx-2 btn-sm btn-outline text-white"
-            >
-              ❯
-            </a>
-          </div>
-        </div>
-        <div
-          id="slide4"
-          className="carousel-item relative w-full flex flex-col"
-        >
-          <div
-            className="hero "
-            style={{
-              backgroundImage:
-                "url(https://i.ibb.co/9qcC0rW/In-Shot-20231007-001022885-min.jpg)",
-            }}
-          >
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-              <h1 className="mt-10 mb-10 md:m-32 lg:m-32 text-4xl font-bold text-yellow-400">
-              Creating Vibrant Memories, Fostering Community Bonds.
-              </h1>
-            </div>
-          </div>
-          <div className="my-2 mx-auto ">
-            <a
-              href="#slide3"
               className="btn mx-2 btn-sm btn-outline text-white"
             >
               ❮
@@ -135,6 +102,7 @@ const Banner = () => {
             </a>
           </div>
         </div>
+        
 
         <div className="carousel-item relative w-full">
           <img src="" className="w-full" />
