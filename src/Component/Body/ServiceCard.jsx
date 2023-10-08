@@ -4,7 +4,7 @@ const ServiceCard = ({ service }) => {
   const { id, name, description, image_url, price } = service;
   return (
     <div data-aos="zoom-in"
-    data-aos-duration="1000">
+    data-aos-duration="2000">
       <div className="pb-5 text-center ">
         <div className="  mx-auto  bg-black  shadow-xl">
           <div className="grid gap-4  md:grid-cols-2 lg:grid-cols-1">
