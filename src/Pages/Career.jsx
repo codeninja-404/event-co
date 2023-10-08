@@ -1,7 +1,7 @@
 const Career = () => {
   return (
-    <div className="h-screen container mx-auto px-2 lg:px-20">
-      <div className="hero min-h-screen  mb-20">
+    <div className="h-full container mx-auto px-2 lg:px-20">
+      <div className="hero min-h-screen pb-10  mb-20">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="lg:w-3/6 text-center  lg:text-right">
             <h1 className="text-4xl text-green-600 font-bold">Start your career with us!</h1>
@@ -15,7 +15,7 @@ const Career = () => {
           </div>
           <div className="lg:w-3/6 grid gap-6 grid-cols-3">
             <div className="flex gap-4 flex-col items-center">
-              <div className="   shadow-xl">
+              <div className="h-full   shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/qDNLF1K/photo-2023-10-08-23-51-52.jpg"
@@ -23,7 +23,7 @@ const Career = () => {
                     className="rounded-full"
                   />
                 </figure>
-                <div className=" items-center text-center">
+                <div className="h-full items-center text-center">
                   <h2 className="text-xl text-yellow-300">
                     Festival Organizer
                   </h2>
@@ -34,8 +34,8 @@ const Career = () => {
                 apply
               </button>
             </div>
-            <div className="flex  h-full  gap-4 flex-col items-center">
-              <div className="  shadow-xl">
+            <div className="flex    gap-4 flex-col items-center">
+              <div className="h-full  shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/m6yHtgx/photo-2023-10-08-23-51-55.jpg"
@@ -54,8 +54,8 @@ const Career = () => {
                 apply
               </button>
             </div>
-            <div className="flex h-full  gap-4 flex-col items-center">
-              <div className="  shadow-xl">
+            <div className="flex  gap-4 flex-col items-center">
+              <div className="h-full  shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/Y8H6yvt/photo-2023-10-08-23-51-58.jpg"
@@ -74,8 +74,8 @@ const Career = () => {
                 apply
               </button>
             </div>
-            <div className="flex h-full  gap-4 flex-col items-center">
-              <div className="  shadow-xl">
+            <div className="flex   gap-4 flex-col items-center">
+              <div className="h-full  shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/z5mSryf/photo-2023-10-08-23-52-00.jpg"
@@ -84,18 +84,18 @@ const Career = () => {
                   />
                 </figure>
                 <div className=" items-center text-center">
-                  <h2 className="text-xl text-yellow-300">
+                  <h2 className=" text-xl text-yellow-300">
                   Event Planner
                   </h2>
                   <p>2 open jobs</p>
                 </div>
               </div>
-              <button className="btn btn-sm btn-outline btn-primary">
+              <button className=" btn btn-sm btn-outline btn-primary">
                 apply
               </button>
             </div>
-            <div className="flex h-full  gap-4 flex-col items-center">
-              <div className="  shadow-xl">
+            <div className="flex   gap-4 flex-col items-center">
+              <div className="h-full  shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/Xb1XTQg/photo-2023-10-08-23-52-03.jpg"
@@ -114,8 +114,8 @@ const Career = () => {
                 apply
               </button>
             </div>
-            <div className="flex h-full  gap-4 flex-col items-center">
-              <div className="  shadow-xl">
+            <div className="flex   gap-4 flex-col items-center">
+              <div className="h-full  shadow-xl">
                 <figure className="px-5 pb-5">
                   <img
                     src="https://i.ibb.co/19Dp2t2/photo-2023-10-08-23-52-04.jpg"
@@ -137,6 +137,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
