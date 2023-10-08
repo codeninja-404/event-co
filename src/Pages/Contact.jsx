@@ -2,9 +2,9 @@ import { BiArrowFromLeft, BiSolidPhoneCall } from "react-icons/bi";
 import { MdMarkEmailRead } from "react-icons/md";
 const Contact = () => {
   return (
-    <div className="h-screen container mx-auto px-2 lg:px-20">
-      <div className="hero min-h-screen">
-        <div className="flex flex-col lg:flex-row w-full items-center justify-between  lg:items-start">
+    <div className="container mx-auto px-2 lg:px-20">
+      <div className="hero  min-h-screen">
+        <div className="flex flex-col  lg:flex-row w-full items-center justify-evenly lg:items-start">
           <div className="text-center lg:border-r lg:pr-44 flex my-5 flex-col lg:text-left">
             <div>
               <h1 className="text-5xl font-bold">Let's Talk</h1>
@@ -21,8 +21,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0  w-full max-w-sm shadow-2xl ">
-            <form className="card-body">
+          <div className="  w-full h-full max-w-sm shadow-2xl ">
+            <form className="">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Your Email</span>
