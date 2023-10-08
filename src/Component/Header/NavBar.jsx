@@ -66,7 +66,7 @@ const NavBar = () => {
               <Link
                 onClick={() => logOut()}
                 to="/"
-                className="btn btn-outline btn-xs text-xs text-gray-400"
+                className="btn btn-outline btn-xs text-xs text-red-500"
               >
                 Log Out
               </Link>
@@ -74,7 +74,7 @@ const NavBar = () => {
           ) : (
             <Link
               to="/login"
-              className="btn btn-outline btn-xs text-xs text-gray-400"
+              className="btn btn-outline btn-xs text-xs text-green-500"
             >
               Log in
             </Link>
