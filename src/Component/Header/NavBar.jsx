@@ -15,7 +15,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="py-2 lg:px-20">
+    <div className="p-2 lg:px-20">
       <div className="navbar rounded-full  bg-black border text-gray-400 container mx-auto px-2 lg:px-20">
         <div className="navbar-start">
           <div className="dropdown">
