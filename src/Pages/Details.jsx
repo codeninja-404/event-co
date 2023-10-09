@@ -11,7 +11,7 @@ const Details = () => {
     setServiceDetails(details);
   }, []);
   return (
-   <div className=" h-screen md:h-screen lg:h-screen bg-black container mx-auto">
+   <div className=" h-full  bg-black container mx-auto">
      <div data-aos="flip-down" className=" bg-black px-2 lg:px-20 ">
         <h2 className="text-center text-yellow-500 font-bold text-4xl py-5">{name} details</h2>
       <div className="w-full md:w-4/6 lg:w-4/6 mx-auto">
