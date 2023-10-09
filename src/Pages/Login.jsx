@@ -1,40 +1,34 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
   const { logIn, logInWithGoogle } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
     console.log(email, password);
     logIn(email, password)
-      .then()
-      .catch((err) => console.log(err.message));
+      .then((result) => {
+        navigate(location?.state ? location.state : "/");
+        toast.success("User Logged In successful!");
+      })
+      .catch((err) => {
+        toast.error(err.code);
+      });
   };
   const handleGoogleLogIn = () => {
     logInWithGoogle()
       .then((result) => {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        const credential = GoogleAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
-        // The signed-in user info.
-        const user = result.user;
-        // IdP data available using getAdditionalUserInfo(result)
-        // ...
+        navigate(location?.state ? location.state : "/");
+        toast.success("User Logged In successful!");
       })
-      .catch((error) => {
-        // Handle Errors here.
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        // The email of the user's account used.
-        const email = error.customData.email;
-        // The AuthCredential type that was used.
-        const credential = GoogleAuthProvider.credentialFromError(error);
-        // ...
-      });
+      .catch((error) => toast.error("Log In failed!"));
   };
   return (
     <div className="container h-screen px-2 lg:px-20 mx-auto">

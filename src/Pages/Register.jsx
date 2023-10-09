@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
+import toast from "react-hot-toast";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
@@ -11,7 +12,13 @@ const Register = () => {
     const password = e.target.password.value;
     const name = e.target.name.value;
     const photo = e.target.photo.value;
-
+    if (password.length < 6) {
+      return toast.error("Password must have atleast 6 charecters.");
+    } else if (!/[A-Z]/.test(password)) {
+      return toast.error("Password must have atleast one uppercase letter.");
+    } else if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+      return toast.error("Password must have special charecter.");
+    }
     createUser(email, password)
       .then((res) => {
         updateProfile(res.user, {
@@ -19,14 +26,13 @@ const Register = () => {
           photoURL: photo,
         })
           .then(() => {
-            console.log("profile updated successfully");
+            toast.success("Registration Successful");
           })
-          .catch((error) => {
-            
-            console.error(error.message);
+          .catch((err) => {
+            toast.error(err.message);
           });
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => toast.error(err.message));
   };
   return (
     <div className="container h-screen px-2 lg:px-20 mx-auto">
