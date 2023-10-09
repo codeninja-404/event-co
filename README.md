@@ -1,5 +1,8 @@
-## Event.CO 
+## Event.CO
 
-### Project link
+### [Project live link](https://event-co.web.app)
+
 https://event-co.web.app
 
+
+### Project features
